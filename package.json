@@ -1,0 +1,31 @@
+{
+  "name": "svelte-webgl-slider-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run check && vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@tsconfig/svelte": "^5.0.8",
+    "@types/node": "^24.19.2",
+    "svelte-check": "^4.7.7",
+    "typescript": "~6.0.3",
+    "vite": "8.3.8",
+    "@tailwindcss/vite": "4.2.2",
+    "tailwindcss": "4.2.2"
+  },
+  "description": "The Svelte implementation of Shader Slider Studio with WebGL2 transitions, live settings, and browser-local presets.",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  },
+  "dependencies": {
+    "@lucide/svelte": "1.62.0",
+    "svelte": "5.59.1"
+  }
+}
